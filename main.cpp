@@ -4,6 +4,7 @@
 #include "pizzastore.h"
 #include "cheesepizza.h"
 #include "cheeseburger.h"
+#include "carbonara.h"
 
 int main(int argc, char *argv[])
 {
@@ -13,5 +14,6 @@ int main(int argc, char *argv[])
 
     Pizza *pizza1 = pStore->orderPizza("CheesePizza");
     Pizza *pizza2 = pStore->orderPizza("Cheeseburger");
+    Pizza *pizza3 = pStore->orderPizza("Carbonara");
     return a.exec();
 }
