@@ -11,7 +11,10 @@ Pizza* SimplePizzaFactory::createPizza(QString type) {
 
    }else if (type == "Cheeseburger") {
        pizza = new Cheeseburger();
+   }else if (type == "Carbonara") {
+       pizza = new Carbonara();
    }
+
 
     return pizza;
 }
