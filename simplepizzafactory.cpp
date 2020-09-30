@@ -6,9 +6,9 @@ SimplePizzaFactory::SimplePizzaFactory()
 }
 Pizza* SimplePizzaFactory::createPizza(QString type) {
     Pizza *pizza = nullptr;
-   /*if (type == "cheese") {
+   if (type == "CheesePizza") {
         pizza = new CheesePizza();
-    }*/
+    }
 
     return pizza;
 }
