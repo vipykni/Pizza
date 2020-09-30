@@ -4,6 +4,7 @@
 #include "pizza.h"
 #include "pizzastore.h"
 #include "cheesepizza.h"
+#include "cheeseburger.h"
 
 class SimplePizzaFactory : public PizzaStore
 {
